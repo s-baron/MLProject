@@ -11,8 +11,11 @@ although additional standalone projects in experiments is fine.
 -- experiments/
 -- visualizations/
 -- util/
--- full_ibc (implicit, please do not add to github)
--- runKFold.py
+-- full_ibc/
+--- treeUtil.py (implicit, please do not add to github)
+--- loadIBC.py (implicit, please do not add to github)
+--- treeUtil.py (implicit, please do not add to github)
+--- runKFold.py
 
 ### runKFold.py
 This file is where all experiments should be run from for comparison purposes. 
