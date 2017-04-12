@@ -21,11 +21,13 @@ def paramLogReg(X_train, y_train, X_test, y_test, **kwargs):
 		cv = TfidfVectorizer(ngram_range=kwargs["ngram_range"],
 			                 stop_words=kwargs["stop_words"],
 			                 max_features=kwargs["max_features"],
-			                 norm=kwargs["norm"])
+			                 norm=kwargs["norm"],
+			                 binary=True)
 	else:
 		cv = CountVectorizer(ngram_range=kwargs["ngram_range"],
 			                 stop_words=kwargs["stop_words"],
-			                 max_features=kwargs["max_features"])
+			                 max_features=kwargs["max_features"],
+			                 binary=True)
 	cv.fit(X_train)
 	train_dtm = cv.transform(X_train)
 	clf = LogisticRegression(class_weight="balanced")

@@ -112,3 +112,79 @@ Tue Apr 11 12:46:41 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('st
 Min Accuracy: 0.553571428571
 Max Accuracy: 0.668656716418
 Ave Accuracy: 0.620658529101
+Tue Apr 11 20:46:25 2017: Random2Class
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.528189910979
+Ave Accuracy: 0.500423824076
+Tue Apr 11 20:46:25 2017: Simple Log Reg
+Min Accuracy: 0.568452380952
+Max Accuracy: 0.683582089552
+Ave Accuracy: 0.627207078744
+Tue Apr 11 20:46:25 2017: Simple Tfidf Log Reg
+Min Accuracy: 0.58630952381
+Max Accuracy: 0.680597014925
+Ave Accuracy: 0.639733747013
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', 'l2'), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.595238095238
+Max Accuracy: 0.701492537313
+Ave Accuracy: 0.646285845044
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', None), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.544642857143
+Max Accuracy: 0.671641791045
+Ave Accuracy: 0.608120337798
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', 'l2'), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.610119047619
+Max Accuracy: 0.701492537313
+Ave Accuracy: 0.647773940282
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', None), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.668656716418
+Ave Accuracy: 0.605129927408
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', 'l2'), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.607142857143
+Max Accuracy: 0.679525222552
+Ave Accuracy: 0.645084718417
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', None), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.553571428571
+Max Accuracy: 0.671641791045
+Ave Accuracy: 0.606914784914
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', 'l2'), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.617910447761
+Max Accuracy: 0.686567164179
+Ave Accuracy: 0.647773924464
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', None), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.570149253731
+Max Accuracy: 0.641791044776
+Ave Accuracy: 0.600652304923
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', 'l2'), ('vectorizer', 'normal')]
+Min Accuracy: 0.547619047619
+Max Accuracy: 0.692537313433
+Ave Accuracy: 0.624828781063
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', None), ('vectorizer', 'normal')]
+Min Accuracy: 0.547619047619
+Max Accuracy: 0.692537313433
+Ave Accuracy: 0.624828781063
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', 'l2'), ('vectorizer', 'normal')]
+Min Accuracy: 0.547619047619
+Max Accuracy: 0.683582089552
+Ave Accuracy: 0.62035294068
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', 'english'), ('norm', None), ('vectorizer', 'normal')]
+Min Accuracy: 0.547619047619
+Max Accuracy: 0.683582089552
+Ave Accuracy: 0.62035294068
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', 'l2'), ('vectorizer', 'normal')]
+Min Accuracy: 0.550595238095
+Max Accuracy: 0.668656716418
+Ave Accuracy: 0.623625005009
+Tue Apr 11 20:46:25 2017: [('max_features', None), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', None), ('vectorizer', 'normal')]
+Min Accuracy: 0.550595238095
+Max Accuracy: 0.668656716418
+Ave Accuracy: 0.623625005009
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', 'l2'), ('vectorizer', 'normal')]
+Min Accuracy: 0.580357142857
+Max Accuracy: 0.650746268657
+Ave Accuracy: 0.61676285012
+Tue Apr 11 20:46:25 2017: [('max_features', 5000), ('ngram_range', (1, 1)), ('stop_words', None), ('norm', None), ('vectorizer', 'normal')]
+Min Accuracy: 0.580357142857
+Max Accuracy: 0.650746268657
+Ave Accuracy: 0.61676285012
