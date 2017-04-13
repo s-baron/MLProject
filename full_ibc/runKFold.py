@@ -8,7 +8,7 @@ import full_ibc.svcexperiments as svcexperiments
 
 # Only change these variables (and the visualizations section if necessary)
 # List of functions that predict two classes
-twoClass = [svcexperiments.removeStopWords]
+twoClass = []
 # List of functions that predict three classes
 threeClass = []
 
