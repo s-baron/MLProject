@@ -28,6 +28,7 @@ def paramLogReg(X_train, y_train, X_test, y_test, **kwargs):
 			                 stop_words=kwargs["stop_words"],
 			                 max_features=kwargs["max_features"])
 	cv.fit(X_train)
+	print len(cv.vocabulary_)
 	train_dtm = cv.transform(X_train)
 	clf = LogisticRegression(class_weight="balanced",
 							 C=kwargs["C"])
