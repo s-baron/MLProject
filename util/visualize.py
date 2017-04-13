@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import interp
 from sklearn.metrics import roc_curve, auc
+from textwrap import wrap
 
 import util as utilities
 
@@ -17,7 +18,7 @@ def plotConfusionMatrix(cm, classes, normalize=False, title='Confusion matrix', 
 	np.set_printoptions(precision=2)
 	cmap = plt.cm.cool
 	plt.imshow(cm, interpolation='nearest', cmap=cmap)
-	plt.title(title)
+	plt.title('\n'.join(wrap(title,60)))
 	plt.colorbar()
 	tick_marks = np.arange(len(classes))
 	plt.xticks(tick_marks, classes, rotation=45)
@@ -76,7 +77,7 @@ def plotROC(y_true, y_pred, title, path=None):
 	plt.xlabel('False Positive Rate')
 	plt.ylabel('True Positive Rate')
 	plt.axis("equal")
-	plt.title(title)
+	plt.title('\n'.join(wrap(title,60)))
 	leg = plt.legend(bbox_to_anchor=(1,0.815), loc='center left', numpoints=1)
 	fig.set_tight_layout(True)
 	if path == None:

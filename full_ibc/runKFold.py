@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 
 import full_ibc.treeUtil as treeUtil
 import util.util as utilities
-import full_ibc.svcexperiments as svcexperiments
+import experiments.svcexperiments as svcexperiments
 import util.visualize as vis
 
 from experiments.test_experiment import randomModel
@@ -17,6 +17,7 @@ import experiments.log_reg_experiments as logReg
 twoClass = [randomModel, logReg.simpleLogRegModel, logReg.simpleTfidfLogRegModel] + [logReg.paramLogReg for x in logReg.kwargsList]
 twoClassNames = ["Random2Class", "Simple Log Reg", "Simple Tfidf Log Reg"] + logReg.nameList
 twoClassKwargs = [None, None, None] + logReg.kwargsList
+
 # List of functions that predict three classes
 threeClass = [randomModel]
 threeClassNames = ["Random3Class"]
@@ -71,6 +72,7 @@ def main():
 		y_pred_2_fold = []
 		y_pred_3_fold = []
 		for m in range(len(twoClass)):
+			print "Done with " + str(m) + " out of " + str(len(twoClass))
 			if twoClassKwargs[m] != None:
 				y_pred_2_fold.append(twoClass[m](X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2, **twoClassKwargs[m]))
 			else:
