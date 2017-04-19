@@ -1,5 +1,3 @@
-import sys
-sys.path.append('/Users/varshakishore/Google Drive/Junior Spring (2017)/ML/MLProject')
 import numpy as np
 import cPickle
 import time
