@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/Users/varshakishore/Google Drive/Junior Spring (2017)/ML/MLProject')
 import numpy as np
 import cPickle
 import time
@@ -11,20 +13,28 @@ import util.visualize as vis
 
 from experiments.test_experiment import randomModel
 import experiments.log_reg_experiments as logReg
+import experiments.randomForests as randomForests
+import experiments.ldaExperiments as ldaExperiments
 
 # Only change these variables (and the visualizations section if necessary)
 # List of functions that predict two classes
-twoClass = [randomModel, logReg.simpleLogRegModel, logReg.simpleTfidfLogRegModel] + [logReg.paramLogReg for x in logReg.kwargsList]
-twoClassNames = ["Random2Class", "Simple Log Reg", "Simple Tfidf Log Reg"] + logReg.nameList
-twoClassKwargs = [None, None, None] + logReg.kwargsList
+# twoClass = [randomModel, logReg.simpleLogRegModel, logReg.simpleTfidfLogRegModel] + [logReg.paramLogReg for x in logReg.kwargsList]
+# twoClassNames = ["Random2Class", "Simple Log Reg", "Simple Tfidf Log Reg"] + logReg.nameList
+# twoClassKwargs = [None, None, None] + logReg.kwargsList
+twoClass = [ldaExperiments.simpleLda]
+twoClassNames = ["LDA"]
+twoClassKwargs = [None]
 
 # List of functions that predict three classes
-threeClass = [randomModel]
-threeClassNames = ["Random3Class"]
+# threeClass = [randomModel]
+# threeClassNames = ["Random3Class"]
+threeClass = []
+threeClassNames = []
 
 def main():
 	# Load data
 	print len(twoClass)
+	print len(threeClass)
 	path = utilities.findFileOnPath('ibcData.pkl')
 	[lib, con, neutral] = cPickle.load(open(path, 'rb'))
 
@@ -121,6 +131,25 @@ def main():
 		title = twoClassNames[m]
 		path = "../visualizations/{}/ROCPlot".format(title, k)
 		vis.plotROC(y_true, y_pred, title, path=path)
+
+	# 3 class accuracy
+	accuracy_all = []
+	for k in xrange(numSplits):
+		accuracy_temp = []
+		for m in xrange(len(threeClass)):
+			y_true = y_true_3_all[k]
+			y_pred = y_pred_3_all[k][m]
+			accuracy_temp.append(accuracy_score(y_true, y_pred))
+		accuracy_all.append(accuracy_temp)
+	for m in xrange(len(threeClass)):
+		accuracy = [accuracy_all[k][m] for k in xrange(numSplits)]
+		minimum = min(accuracy)
+		maximum = max(accuracy)
+		average = np.average(accuracy)
+		print "min", minimum
+		print "max", maximum
+		print "avg", average
+
 
 	# ------------------- Add more visualizations below as necessary ------------------
 
