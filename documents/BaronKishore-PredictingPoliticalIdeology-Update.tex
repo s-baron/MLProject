@@ -31,12 +31,12 @@
     \textbf{Results} & \begin{tabular}{|r|p{50mm}|r|r|} \hline
     \textbf{Model} & \textbf{Best Params} & \textbf{Average Accuracy} \\ \hline
     Random & N/A & 50\% \\ \hline
-    SVM & b & c \\ \hline
+    SVM & Used NLTK to remove stop words, used NLTK to extract words using tokenize, used linear SVM with cost C=10 & About 62\% \\ \hline
     LogReg & Remove English Stop Words, Number of Features $\geq$ 1000, Other features tried make little difference & About 65\% \\ \hline
     \end{tabular}
     \\ \hline
     \textbf{Problems} &  The lone professional paper that uses this dataset achieves a maximum accuracy 69.3\% (using recursive neural nets (RNN)). This is not that great, so whether we'll be able to improve from where we are currently, or beyond that far enough to get interesting results is an open question. Additionally, we don't have a lot of data, which may limit the amount that our model will generalize.  \\ \hline
-    \textbf{Future} & We are planning to look into better feature extraction techniques. This includes looking for negation in sentences, n-grams and specifically politically biased n-grams, and \texttt{nltk} chunking which groups parts of sentences. We also plan to pursue multiclass classification to include neutral examples using random forests. Finally, LDA seems as though it may be interesting in conjunction with our supervised models if we used the results as inputs, however tuning the number of topics in LDA is difficult and subjective, so we plan to time box ourselves to 2 hours initially, and evaluate the results. \\ \hline
+    \textbf{Future} & We are planning to look into better feature extraction techniques. This includes looking for negation in sentences, n-grams and specifically politically biased n-grams, and \texttt{nltk} chunking which groups parts of sentences. We also plan to pursue multiclass classification to include neutral examples using random forests. Finally, LDA seems as though it may be interesting in conjunction with our supervised models if we used the results as inputs, however tuning the number of topics in LDA is difficult and subjective, so we plan to time box ourselves to 2 hours initially, and evaluate the results. We can also use LDA to examine what words are being classified as liberal and what words are being classified as conservative. \\ \hline
   \end{tabular}
 \end{center}
 
