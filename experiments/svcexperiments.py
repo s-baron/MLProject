@@ -32,7 +32,7 @@ def allWords(X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2):
 	cv.fit(X_train_k_2)
 	X_train1 = cv.transform(X_train_k_2)
 	X_test1 = cv.transform(X_test_k_2)
-	print "cv", score(X_train1, y_train_k_2, X_test1, y_test_k_2)
+	print "aw", score(X_train1, y_train_k_2, X_test1, y_test_k_2)
 
 
 # using nltk stop words
@@ -49,7 +49,11 @@ def removeStopWords(X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2):
 	cv.fit(X_train_k_2)
 	X_train1 = cv.transform(X_train_k_2)
 	X_test1 = cv.transform(X_test_k_2)
-	print "cv", score(X_train1, y_train_k_2, X_test1, y_test_k_2)
+	clf = SVC(kernel="linear", class_weight='balanced')
+	clf.fit(X_train1, y_train_k_2)
+	y_pred = clf.predict(X_test1)
+	# print "cv", score(X_train1, y_train_k_2, X_test1, y_test_k_2)
+	return y_pred
 
 # using nltk stop words and stem words
 def stemWords(X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2):
