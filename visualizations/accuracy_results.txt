@@ -1896,3 +1896,19 @@ Thu Apr 13 09:58:36 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range'
 Min Accuracy: 0.574404761905
 Max Accuracy: 0.689552238806
 Ave Accuracy: 0.628696067669
+Tue Apr 18 19:00:06 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.588059701493
+Max Accuracy: 0.653731343284
+Ave Accuracy: 0.621541613678
+Tue Apr 18 19:10:31 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.635820895522
+Ave Accuracy: 0.595892124266
+Tue Apr 18 19:13:51 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.576119402985
+Max Accuracy: 0.650746268657
+Ave Accuracy: 0.615586530573
+Tue Apr 18 19:17:28 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.653731343284
+Ave Accuracy: 0.628092823293

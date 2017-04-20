@@ -14,9 +14,9 @@ import experiments.log_reg_experiments as logReg
 
 # Only change these variables (and the visualizations section if necessary)
 # List of functions that predict two classes
-twoClass = [randomModel, logReg.simpleLogRegModel, logReg.simpleTfidfLogRegModel] + [logReg.paramLogReg for x in logReg.kwargsList]
-twoClassNames = ["Random2Class", "Simple Log Reg", "Simple Tfidf Log Reg"] + logReg.nameList
-twoClassKwargs = [None, None, None] + logReg.kwargsList
+twoClass = [logReg.biasedNGramsLogRegModel]
+twoClassNames = ["Biased Ngrams Log Reg"]
+twoClassKwargs = [None]
 
 # List of functions that predict three classes
 threeClass = [randomModel]
