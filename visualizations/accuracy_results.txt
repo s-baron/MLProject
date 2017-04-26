@@ -1932,3 +1932,599 @@ Wed Apr 19 13:44:23 2017: LDA
 Min Accuracy: 0.477611940299
 Max Accuracy: 0.555223880597
 Ave Accuracy: 0.512983289888
+Thu Apr 20 09:08:52 2017: [('C', 0.001), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.46130952381
+Max Accuracy: 0.588059701493
+Ave Accuracy: 0.516869249028
+Thu Apr 20 09:08:52 2017: [('C', 0.001), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.49552238806
+Max Accuracy: 0.579104477612
+Ave Accuracy: 0.53744759142
+Thu Apr 20 09:08:52 2017: [('C', 0.001), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.605970149254
+Ave Accuracy: 0.548182363406
+Thu Apr 20 09:08:52 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.432835820896
+Max Accuracy: 0.537313432836
+Ave Accuracy: 0.508783804589
+Thu Apr 20 09:08:52 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.474626865672
+Max Accuracy: 0.585074626866
+Ave Accuracy: 0.526706642708
+Thu Apr 20 09:08:52 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.492581602374
+Max Accuracy: 0.565476190476
+Ave Accuracy: 0.526701301673
+Thu Apr 20 09:08:52 2017: [('C', 100.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.468656716418
+Max Accuracy: 0.570149253731
+Ave Accuracy: 0.513574085908
+Thu Apr 20 09:08:52 2017: [('C', 100.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.462686567164
+Max Accuracy: 0.55223880597
+Ave Accuracy: 0.525489577336
+Thu Apr 20 09:08:52 2017: [('C', 100.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', None), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.579104477612
+Ave Accuracy: 0.527568494956
+Thu Apr 20 09:08:52 2017: [('C', 0.001), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.516417910448
+Max Accuracy: 0.620178041543
+Ave Accuracy: 0.565428429599
+Thu Apr 20 09:08:52 2017: [('C', 0.001), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.522388059701
+Max Accuracy: 0.620895522388
+Ave Accuracy: 0.568451584806
+Thu Apr 20 09:08:52 2017: [('C', 0.001), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.540298507463
+Max Accuracy: 0.608308605341
+Ave Accuracy: 0.584241485978
+Thu Apr 20 09:08:52 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.525222551929
+Max Accuracy: 0.614925373134
+Ave Accuracy: 0.565192830886
+Thu Apr 20 09:08:52 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.55223880597
+Max Accuracy: 0.623880597015
+Ave Accuracy: 0.589321422244
+Thu Apr 20 09:08:52 2017: [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.55223880597
+Max Accuracy: 0.620895522388
+Ave Accuracy: 0.593489003689
+Thu Apr 20 09:08:52 2017: [('C', 100.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.532738095238
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.565479841678
+Thu Apr 20 09:08:52 2017: [('C', 100.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.479166666667
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.561601063673
+Thu Apr 20 09:08:52 2017: [('C', 100.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.535714285714
+Max Accuracy: 0.652818991098
+Ave Accuracy: 0.583032432159
+Thu Apr 20 09:19:41 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 200), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.513432835821
+Max Accuracy: 0.638805970149
+Ave Accuracy: 0.58811764619
+Thu Apr 20 09:19:41 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 200), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.5625
+Max Accuracy: 0.64776119403
+Ave Accuracy: 0.60781295673
+Thu Apr 20 09:19:41 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.522388059701
+Max Accuracy: 0.626112759644
+Ave Accuracy: 0.572881354145
+Thu Apr 20 09:19:41 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 500), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.507462686567
+Max Accuracy: 0.643916913947
+Ave Accuracy: 0.595858464671
+Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 50), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.570149253731
+Max Accuracy: 0.620895522388
+Ave Accuracy: 0.596774352063
+Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 50), ('n_topics', 200), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.45671641791
+Max Accuracy: 0.576119402985
+Ave Accuracy: 0.513276514313
+Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.659701492537
+Ave Accuracy: 0.610506589034
+Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 200), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.525373134328
+Max Accuracy: 0.641791044776
+Ave Accuracy: 0.566655235902
+Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 200), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.570149253731
+Max Accuracy: 0.650746268657
+Ave Accuracy: 0.604242363848
+Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 200), ('n_topics', 200), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.526785714286
+Max Accuracy: 0.635820895522
+Ave Accuracy: 0.581562047225
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.597014925373
+Ave Accuracy: 0.574101973178
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.498507462687
+Max Accuracy: 0.6
+Ave Accuracy: 0.535629047956
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.494047619048
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.539825063955
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.444776119403
+Max Accuracy: 0.574404761905
+Ave Accuracy: 0.516217215639
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.468656716418
+Max Accuracy: 0.602985074627
+Ave Accuracy: 0.528181522443
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.477611940299
+Max Accuracy: 0.576119402985
+Ave Accuracy: 0.543973993956
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.566051129473
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.501492537313
+Max Accuracy: 0.577380952381
+Ave Accuracy: 0.524590480198
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.471641791045
+Max Accuracy: 0.555223880597
+Ave Accuracy: 0.517744374777
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.453731343284
+Max Accuracy: 0.553571428571
+Ave Accuracy: 0.48518220154
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.462686567164
+Max Accuracy: 0.558208955224
+Ave Accuracy: 0.495381074703
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.453731343284
+Max Accuracy: 0.551928783383
+Ave Accuracy: 0.499526567038
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.540298507463
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.571117781693
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.501492537313
+Max Accuracy: 0.597014925373
+Ave Accuracy: 0.540701020122
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.486567164179
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.544874894287
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.465671641791
+Max Accuracy: 0.564179104478
+Ave Accuracy: 0.51148984307
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.605341246291
+Ave Accuracy: 0.514701679711
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.483582089552
+Max Accuracy: 0.566765578635
+Ave Accuracy: 0.521604596243
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.540298507463
+Max Accuracy: 0.594029850746
+Ave Accuracy: 0.571118670109
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.49552238806
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.534403140613
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.498507462687
+Max Accuracy: 0.594029850746
+Ave Accuracy: 0.535911679943
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.453731343284
+Max Accuracy: 0.54328358209
+Ave Accuracy: 0.490908772163
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.44776119403
+Max Accuracy: 0.555223880597
+Ave Accuracy: 0.504948437655
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.579104477612
+Ave Accuracy: 0.509108869599
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.572310928402
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.474626865672
+Max Accuracy: 0.574404761905
+Ave Accuracy: 0.523685216879
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.489552238806
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.552911496987
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.452380952381
+Max Accuracy: 0.573134328358
+Ave Accuracy: 0.507884802355
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.471641791045
+Max Accuracy: 0.55223880597
+Ave Accuracy: 0.503421289061
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.488095238095
+Max Accuracy: 0.582089552239
+Ave Accuracy: 0.518350247491
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.572609435864
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.485119047619
+Max Accuracy: 0.540059347181
+Ave Accuracy: 0.516249182764
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.593471810089
+Ave Accuracy: 0.535299561961
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.455357142857
+Max Accuracy: 0.549253731343
+Ave Accuracy: 0.509984095525
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.453731343284
+Max Accuracy: 0.570149253731
+Ave Accuracy: 0.493904549951
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 1)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.441791044776
+Max Accuracy: 0.559523809524
+Ave Accuracy: 0.481642624099
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.572012420939
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.477611940299
+Max Accuracy: 0.574404761905
+Ave Accuracy: 0.524881018287
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.605970149254
+Ave Accuracy: 0.553210892865
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.553571428571
+Ave Accuracy: 0.493538638938
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.465671641791
+Max Accuracy: 0.5625
+Ave Accuracy: 0.502795019709
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 500), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.50447761194
+Max Accuracy: 0.576119402985
+Ave Accuracy: 0.53715441972
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.591044776119
+Ave Accuracy: 0.572609435864
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.485119047619
+Max Accuracy: 0.596439169139
+Ave Accuracy: 0.529051344064
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.585074626866
+Ave Accuracy: 0.53442618668
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'normal')]
+Min Accuracy: 0.45671641791
+Max Accuracy: 0.55223880597
+Ave Accuracy: 0.503691441057
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'normal')]
+Min Accuracy: 0.45671641791
+Max Accuracy: 0.549253731343
+Ave Accuracy: 0.507034420416
+Thu Apr 20 09:51:43 2017: [('stop_words', 'english'), ('max_tree_features', 'log2'), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'normal')]
+Min Accuracy: 0.443452380952
+Max Accuracy: 0.55223880597
+Ave Accuracy: 0.487636792194
+Thu Apr 20 09:59:46 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 2), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.540298507463
+Max Accuracy: 0.594029850746
+Ave Accuracy: 0.571417177571
+Thu Apr 20 09:59:46 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 5), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.588059701493
+Ave Accuracy: 0.533209110762
+Thu Apr 20 09:59:46 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 10), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.498507462687
+Max Accuracy: 0.594029850746
+Ave Accuracy: 0.537103044548
+Thu Apr 20 09:59:46 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 15), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.620895522388
+Ave Accuracy: 0.549953899958
+Thu Apr 20 09:59:46 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', 20), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.525373134328
+Max Accuracy: 0.60237388724
+Ave Accuracy: 0.560970331155
+Thu Apr 20 09:59:46 2017: [('stop_words', 'english'), ('max_tree_features', None), ('ngram_range', (1, 2)), ('max_features', 5000), ('max_depth', None), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.5625
+Max Accuracy: 0.626865671642
+Ave Accuracy: 0.588134494442
+Thu Apr 20 11:13:09 2017: Ngrams and LDA
+Min Accuracy: 0.576119402985
+Max Accuracy: 0.665671641791
+Ave Accuracy: 0.623329987937
+Sun Apr 23 20:20:32 2017: Ngrams and LDA
+Min Accuracy: 0.570149253731
+Max Accuracy: 0.665671641791
+Ave Accuracy: 0.625717159223
+Sun Apr 23 20:30:59 2017: Ngrams and LDA
+Min Accuracy: 0.573134328358
+Max Accuracy: 0.650746268657
+Ave Accuracy: 0.621840105323
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 30), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.522388059701
+Max Accuracy: 0.608955223881
+Ave Accuracy: 0.581262603894
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 40), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.513432835821
+Max Accuracy: 0.611275964392
+Ave Accuracy: 0.574980652587
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.492537313433
+Max Accuracy: 0.632835820896
+Ave Accuracy: 0.575578545382
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 60), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.641791044776
+Ave Accuracy: 0.594982424145
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 70), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.564179104478
+Max Accuracy: 0.626865671642
+Ave Accuracy: 0.604223744039
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 80), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.528358208955
+Max Accuracy: 0.623145400593
+Ave Accuracy: 0.589598655198
+Sun Apr 23 20:47:09 2017: Simple LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.564179104478
+Max Accuracy: 0.671641791045
+Ave Accuracy: 0.603044775065
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 30), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.537313432836
+Max Accuracy: 0.644776119403
+Ave Accuracy: 0.575621972271
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 40), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.513432835821
+Max Accuracy: 0.635820895522
+Ave Accuracy: 0.586327484557
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 50), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.558208955224
+Max Accuracy: 0.65671641791
+Ave Accuracy: 0.598870096845
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 60), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.573134328358
+Max Accuracy: 0.677611940299
+Ave Accuracy: 0.604534652406
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 70), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.629850746269
+Ave Accuracy: 0.597669879724
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 80), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.662686567164
+Ave Accuracy: 0.606020092944
+Sun Apr 23 20:47:09 2017: Split LDA[('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 100), ('vectorizer', 'tfidf')]
+Min Accuracy: 0.549253731343
+Max Accuracy: 0.668656716418
+Ave Accuracy: 0.605425743263
+Sun Apr 23 21:05:40 2017: Simple Decision Tree
+Min Accuracy: 0.546268656716
+Max Accuracy: 0.617910447761
+Ave Accuracy: 0.579188138894
+Sun Apr 23 21:09:00 2017: Simple Decision Tree
+Min Accuracy: 0.522388059701
+Max Accuracy: 0.589285714286
+Ave Accuracy: 0.561875557566
+Sun Apr 23 21:10:42 2017: Simple Decision Tree
+Min Accuracy: 0.495548961424
+Max Accuracy: 0.60119047619
+Ave Accuracy: 0.558629167642
+Sun Apr 23 21:11:50 2017: Simple Decision Tree
+Min Accuracy: 0.498516320475
+Max Accuracy: 0.585074626866
+Ave Accuracy: 0.564901383291
+Sun Apr 23 21:14:05 2017: Simple Decision Tree
+Min Accuracy: 0.516320474777
+Max Accuracy: 0.588059701493
+Ave Accuracy: 0.555641464677
+Sun Apr 23 21:17:36 2017: Simple Decision Tree
+Min Accuracy: 0.54328358209
+Max Accuracy: 0.623880597015
+Ave Accuracy: 0.596786742422
+Sun Apr 23 21:19:29 2017: Simple Decision Tree
+Min Accuracy: 0.525373134328
+Max Accuracy: 0.623880597015
+Ave Accuracy: 0.578572509432
+Sun Apr 23 21:25:09 2017: Simple Decision Tree
+Min Accuracy: 0.537313432836
+Max Accuracy: 0.605970149254
+Ave Accuracy: 0.573512948716
+Sun Apr 23 21:25:09 2017: Complex Decision Tree
+Min Accuracy: 0.511904761905
+Max Accuracy: 0.644776119403
+Ave Accuracy: 0.574427112003
+Sun Apr 23 21:55:28 2017: NGrams Log Reg
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.653731343284
+Ave Accuracy: 0.628092823293
+Sun Apr 23 21:59:29 2017: NGrams Log Reg
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.653731343284
+Ave Accuracy: 0.628092823293
+Mon Apr 24 07:38:51 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 07:53:35 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 07:56:24 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 07:58:10 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 08:18:11 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 08:19:35 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 08:23:28 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 08:24:11 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 08:25:06 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 08:58:15 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.680597014925
+Ave Accuracy: 0.634349079106
+Mon Apr 24 09:16:50 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 09:42:31 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.591044776119
+Max Accuracy: 0.686567164179
+Ave Accuracy: 0.651055740269
+Mon Apr 24 13:54:42 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Mon Apr 24 14:09:21 2017: Log Reg Mistake Analysis
+Min Accuracy: 0.602985074627
+Max Accuracy: 0.69552238806
+Ave Accuracy: 0.65373876959
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', None), ('path', 'TBD'), ('C', 10.0)]
+Min Accuracy: 0.595238095238
+Max Accuracy: 0.70447761194
+Ave Accuracy: 0.651061964447
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', None), ('path', 'TBD'), ('C', 1.0)]
+Min Accuracy: 0.605970149254
+Max Accuracy: 0.692537313433
+Ave Accuracy: 0.655231301631
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', None), ('path', 'TBD'), ('C', 0.01)]
+Min Accuracy: 0.608955223881
+Max Accuracy: 0.698507462687
+Ave Accuracy: 0.655525377563
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', None), ('path', 'TBD'), ('C', 1e-05)]
+Min Accuracy: 0.591044776119
+Max Accuracy: 0.686567164179
+Ave Accuracy: 0.653139094692
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', None), ('path', 'TBD'), ('C', 1e-07)]
+Min Accuracy: 0.591044776119
+Max Accuracy: 0.686567164179
+Ave Accuracy: 0.653139094692
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 5000), ('path', 'TBD'), ('C', 10.0)]
+Min Accuracy: 0.580357142857
+Max Accuracy: 0.701492537313
+Ave Accuracy: 0.628985712071
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 5000), ('path', 'TBD'), ('C', 1.0)]
+Min Accuracy: 0.604166666667
+Max Accuracy: 0.701492537313
+Ave Accuracy: 0.646571057915
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 5000), ('path', 'TBD'), ('C', 0.01)]
+Min Accuracy: 0.617910447761
+Max Accuracy: 0.700296735905
+Ave Accuracy: 0.654918621707
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 5000), ('path', 'TBD'), ('C', 1e-05)]
+Min Accuracy: 0.611940298507
+Max Accuracy: 0.701492537313
+Ave Accuracy: 0.653734343332
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 5000), ('path', 'TBD'), ('C', 1e-07)]
+Min Accuracy: 0.611940298507
+Max Accuracy: 0.701492537313
+Ave Accuracy: 0.653734343332
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 1000), ('path', 'TBD'), ('C', 10.0)]
+Min Accuracy: 0.568452380952
+Max Accuracy: 0.677611940299
+Ave Accuracy: 0.628696072942
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 1000), ('path', 'TBD'), ('C', 1.0)]
+Min Accuracy: 0.60119047619
+Max Accuracy: 0.683582089552
+Ave Accuracy: 0.646882854696
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 1000), ('path', 'TBD'), ('C', 0.01)]
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.691394658754
+Ave Accuracy: 0.648358549031
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 1000), ('path', 'TBD'), ('C', 1e-05)]
+Min Accuracy: 0.597014925373
+Max Accuracy: 0.692537313433
+Ave Accuracy: 0.647772163452
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 1000), ('path', 'TBD'), ('C', 1e-07)]
+Min Accuracy: 0.597014925373
+Max Accuracy: 0.692537313433
+Ave Accuracy: 0.647473655989
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 200), ('path', 'TBD'), ('C', 10.0)]
+Min Accuracy: 0.591044776119
+Max Accuracy: 0.638805970149
+Ave Accuracy: 0.620038441746
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 200), ('path', 'TBD'), ('C', 1.0)]
+Min Accuracy: 0.576119402985
+Max Accuracy: 0.643916913947
+Ave Accuracy: 0.618537924515
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 200), ('path', 'TBD'), ('C', 0.01)]
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.665671641791
+Ave Accuracy: 0.626592321879
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 200), ('path', 'TBD'), ('C', 1e-05)]
+Min Accuracy: 0.582089552239
+Max Accuracy: 0.686567164179
+Ave Accuracy: 0.630471131519
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 200), ('path', 'TBD'), ('C', 1e-07)]
+Min Accuracy: 0.582089552239
+Max Accuracy: 0.686567164179
+Ave Accuracy: 0.630471131519
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 50), ('path', 'TBD'), ('C', 10.0)]
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.619047619048
+Ave Accuracy: 0.5967690163
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 50), ('path', 'TBD'), ('C', 1.0)]
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.619047619048
+Ave Accuracy: 0.596463422607
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 50), ('path', 'TBD'), ('C', 0.01)]
+Min Accuracy: 0.576119402985
+Max Accuracy: 0.632835820896
+Ave Accuracy: 0.603329104794
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 50), ('path', 'TBD'), ('C', 1e-05)]
+Min Accuracy: 0.570149253731
+Max Accuracy: 0.638805970149
+Ave Accuracy: 0.599749675214
+Tue Apr 25 18:14:42 2017: RegTest[('max_features', 50), ('path', 'TBD'), ('C', 1e-07)]
+Min Accuracy: 0.570149253731
+Max Accuracy: 0.638805970149
+Ave Accuracy: 0.600048182677

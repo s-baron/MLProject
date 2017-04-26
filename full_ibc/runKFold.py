@@ -11,17 +11,15 @@ import util.visualize as vis
 
 from experiments.test_experiment import randomModel
 import experiments.log_reg_experiments as logReg
-import experiments.randomForests as randomForests
+#import experiments.randomForests as randomForests
+import experiments.decision_tree_experiments as decisionTree
 import experiments.ldaExperiments as ldaExperiments
 
 # Only change these variables (and the visualizations section if necessary)
 # List of functions that predict two classes
-# twoClass = [randomModel, logReg.simpleLogRegModel, logReg.simpleTfidfLogRegModel] + [logReg.paramLogReg for x in logReg.kwargsList]
-# twoClassNames = ["Random2Class", "Simple Log Reg", "Simple Tfidf Log Reg"] + logReg.nameList
-# twoClassKwargs = [None, None, None] + logReg.kwargsList
-twoClass = [ldaExperiments.simpleLda]
-twoClassNames = ["LDA"]
-twoClassKwargs = [None]
+twoClass = [logReg.bestLogReg for x in logReg.kwargsList]
+twoClassNames = logReg.nameList
+twoClassKwargs = logReg.kwargsList
 
 # List of functions that predict three classes
 # threeClass = [randomModel]
@@ -64,7 +62,9 @@ def main():
 	y_true_2_all = []
 	y_pred_3_all = []
 	y_true_3_all = []
+	k = 0
 	for train, test in kFold.split(X_train, y_train):
+		print "Fold " + str(k) + " out of " + str(numSplits)
 		X_train_k_3 = X_train[train]
 		y_train_k_3 = y_train[train]
 		X_test_k_3 = X_train[test]
@@ -82,6 +82,9 @@ def main():
 		for m in range(len(twoClass)):
 			print "Done with " + str(m) + " out of " + str(len(twoClass))
 			if twoClassKwargs[m] != None:
+				if "path" in twoClassKwargs[m]:
+					path = "../visualizations/{}/{}".format(twoClassNames[m], k)
+					twoClassKwargs[m]["path"] = path
 				y_pred_2_fold.append(twoClass[m](X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2, **twoClassKwargs[m]))
 			else:
 				y_pred_2_fold.append(twoClass[m](X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2))
@@ -91,6 +94,7 @@ def main():
 		y_pred_3_all.append(y_pred_3_fold)
 		y_true_2_all.append(y_test_k_2)
 		y_true_3_all.append(y_test_k_3)
+		k += 1
 
 	# Evaluate and Visualize
 	# Confusion Matrices and Accuracy for All Folds/Experiments
