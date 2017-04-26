@@ -1916,3 +1916,35 @@ Wed Apr 19 13:44:23 2017: LDA
 Min Accuracy: 0.477611940299
 Max Accuracy: 0.555223880597
 Ave Accuracy: 0.512983289888
+Sun Apr 23 19:36:42 2017: Bias vs Neutral
+Min Accuracy: 0.778920308483
+Max Accuracy: 0.820971867008
+Ave Accuracy: 0.799109908341
+Sun Apr 23 19:43:37 2017: Bias vs Neutral
+Min Accuracy: 0.771208226221
+Max Accuracy: 0.808184143223
+Ave Accuracy: 0.791410333115
+Sun Apr 23 19:47:17 2017: Bias vs Neutral
+Min Accuracy: 0.807197943445
+Max Accuracy: 0.848329048843
+Ave Accuracy: 0.826865511515
+Sun Apr 23 19:50:29 2017: Bias vs Neutral
+Min Accuracy: 0.760925449871
+Max Accuracy: 0.799485861183
+Ave Accuracy: 0.786020424282
+Mon Apr 24 00:30:43 2017: Bias vs Neutral (using RBF)
+Min Accuracy: 0.138461538462
+Max Accuracy: 0.86189258312
+Ave Accuracy: 0.211089396734
+Mon Apr 24 00:32:12 2017: Bias vs Neutral (using RBF)
+Min Accuracy: 0.138461538462
+Max Accuracy: 0.86189258312
+Ave Accuracy: 0.211089396734
+Mon Apr 24 00:38:49 2017: Bias vs Neutral (using RBF)
+Min Accuracy: 0.138461538462
+Max Accuracy: 0.86189258312
+Ave Accuracy: 0.211089396734
+Mon Apr 24 01:49:41 2017: SVM Remove Stop Words
+Min Accuracy: 0.574404761905
+Max Accuracy: 0.680597014925
+Ave Accuracy: 0.634063887325
