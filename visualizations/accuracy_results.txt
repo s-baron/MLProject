@@ -1900,6 +1900,22 @@ Tue Apr 18 00:06:35 2017: svmRemoveStop
 Min Accuracy: 0.564179104478
 Max Accuracy: 0.65671641791
 Ave Accuracy: 0.593511166613
+Tue Apr 18 19:00:06 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.588059701493
+Max Accuracy: 0.653731343284
+Ave Accuracy: 0.621541613678
+Tue Apr 18 19:10:31 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.567164179104
+Max Accuracy: 0.635820895522
+Ave Accuracy: 0.595892124266
+Tue Apr 18 19:13:51 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.576119402985
+Max Accuracy: 0.650746268657
+Ave Accuracy: 0.615586530573
+Tue Apr 18 19:17:28 2017: Biased Ngrams Log Reg
+Min Accuracy: 0.594029850746
+Max Accuracy: 0.653731343284
+Ave Accuracy: 0.628092823293
 Wed Apr 19 00:25:52 2017: Random2Class
 Min Accuracy: 0.459701492537
 Max Accuracy: 0.528189910979
@@ -1948,3 +1964,4 @@ Mon Apr 24 01:49:41 2017: SVM Remove Stop Words
 Min Accuracy: 0.574404761905
 Max Accuracy: 0.680597014925
 Ave Accuracy: 0.634063887325
+Ave Accuracy: 0.512983289888
