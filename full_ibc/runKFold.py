@@ -14,12 +14,18 @@ import experiments.log_reg_experiments as logReg
 #import experiments.randomForests as randomForests
 import experiments.decision_tree_experiments as decisionTree
 import experiments.ldaExperiments as ldaExperiments
+import experiments.neutral_bias as neutralBias
 
 # Only change these variables (and the visualizations section if necessary)
 # List of functions that predict two classes
 twoClass = [logReg.bestLogReg for x in logReg.kwargsList]
 twoClassNames = logReg.nameList
 twoClassKwargs = logReg.kwargsList
+# twoClass = [svcexperiments.simpleSVM]
+# twoClassNames = ["SVM Remove Stop Words"]
+# twoClassKwargs = [None]
+
+neutral_bias = False
 
 # List of functions that predict three classes
 # threeClass = [randomModel]
@@ -72,10 +78,23 @@ def main():
 		# Remove neutral examples
 		non_neutral_train_indices = np.where(y_train_k_3 != 0)
 		non_neutral_test_indices = np.where(y_test_k_3 != 0)
-		X_train_k_2 = X_train_k_3[non_neutral_train_indices]
-		y_train_k_2 = y_train_k_3[non_neutral_train_indices]
-		X_test_k_2 = X_test_k_3[non_neutral_test_indices]
-		y_test_k_2 = y_test_k_3[non_neutral_test_indices]
+		neutral_train_indices = np.where(y_train_k_3 == 0)
+		neutral_test_indices = np.where(y_test_k_3 == 0)
+		# if neutral_bias is true then we have two classes: neutral vs liberal and conservative
+		if neutral_bias:
+			X_train_k_2 = X_train_k_3
+			y_train_k_2 = y_train_k_3
+			y_train_k_2[neutral_train_indices] = -1
+			y_train_k_2[non_neutral_train_indices] = 1
+			X_test_k_2 = X_test_k_3
+			y_test_k_2 = y_test_k_3
+			y_test_k_2[neutral_test_indices] = -1
+			y_test_k_2[non_neutral_test_indices] = 1
+		else:
+			X_train_k_2 = X_train_k_3[non_neutral_train_indices]
+			y_train_k_2 = y_train_k_3[non_neutral_train_indices]
+			X_test_k_2 = X_test_k_3[non_neutral_test_indices]
+			y_test_k_2 = y_test_k_3[non_neutral_test_indices]
 
 		y_pred_2_fold = []
 		y_pred_3_fold = []
@@ -142,6 +161,10 @@ def main():
 			y_true = y_true_3_all[k]
 			y_pred = y_pred_3_all[k][m]
 			accuracy_temp.append(accuracy_score(y_true, y_pred))
+			cm = confusion_matrix(y_true, y_pred)
+			title = threeClassNames[m]
+			path = "../visualizations/{}/cm_fold{}.png".format(title, k)
+			vis.plotConfusionMatrix(cm, ["Conservative", "Neutral", "Liberal"], path=path, title=title)
 		accuracy_all.append(accuracy_temp)
 	for m in xrange(len(threeClass)):
 		accuracy = [accuracy_all[k][m] for k in xrange(numSplits)]

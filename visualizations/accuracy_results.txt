@@ -1905,6 +1905,7 @@ Min Accuracy: 0.588059701493
 Max Accuracy: 0.653731343284
 Ave Accuracy: 0.621541613678
 Tue Apr 18 19:10:31 2017: Biased Ngrams Log Reg
+<<<<<<< HEAD
 Min Accuracy: 0.567164179104
 Max Accuracy: 0.635820895522
 Ave Accuracy: 0.595892124266
@@ -1916,6 +1917,22 @@ Tue Apr 18 19:17:28 2017: Biased Ngrams Log Reg
 Min Accuracy: 0.594029850746
 Max Accuracy: 0.653731343284
 Ave Accuracy: 0.628092823293
+Wed Apr 19 00:25:52 2017: Random2Class
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.528189910979
+Ave Accuracy: 0.500423824076
+Wed Apr 19 00:27:23 2017: Random2Class
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.528189910979
+Ave Accuracy: 0.500423824076
+Wed Apr 19 00:28:57 2017: Random2Class
+Min Accuracy: 0.459701492537
+Max Accuracy: 0.528189910979
+Ave Accuracy: 0.500423824076
+Wed Apr 19 13:44:23 2017: LDA
+Min Accuracy: 0.477611940299
+Max Accuracy: 0.555223880597
+Ave Accuracy: 0.512983289888
 Wed Apr 19 00:25:52 2017: Random2Class
 Min Accuracy: 0.459701492537
 Max Accuracy: 0.528189910979
@@ -2029,6 +2046,8 @@ Min Accuracy: 0.45671641791
 Max Accuracy: 0.576119402985
 Ave Accuracy: 0.513276514313
 Thu Apr 20 09:30:51 2017: Split [('C', 1.0), ('stop_words', 'english'), ('ngram_range', (1, 2)), ('max_features', 100), ('n_topics', 100), ('vectorizer', 'tfidf')]
+=======
+>>>>>>> 823a872fcbf5f36ad1e4c99d7fcbbef3c9b501ab
 Min Accuracy: 0.567164179104
 Max Accuracy: 0.659701492537
 Ave Accuracy: 0.610506589034
@@ -2264,6 +2283,22 @@ Thu Apr 20 11:13:09 2017: Ngrams and LDA
 Min Accuracy: 0.576119402985
 Max Accuracy: 0.665671641791
 Ave Accuracy: 0.623329987937
+Sun Apr 23 19:36:42 2017: Bias vs Neutral
+Min Accuracy: 0.778920308483
+Max Accuracy: 0.820971867008
+Ave Accuracy: 0.799109908341
+Sun Apr 23 19:43:37 2017: Bias vs Neutral
+Min Accuracy: 0.771208226221
+Max Accuracy: 0.808184143223
+Ave Accuracy: 0.791410333115
+Sun Apr 23 19:47:17 2017: Bias vs Neutral
+Min Accuracy: 0.807197943445
+Max Accuracy: 0.848329048843
+Ave Accuracy: 0.826865511515
+Sun Apr 23 19:50:29 2017: Bias vs Neutral
+Min Accuracy: 0.760925449871
+Max Accuracy: 0.799485861183
+Ave Accuracy: 0.786020424282
 Sun Apr 23 20:20:32 2017: Ngrams and LDA
 Min Accuracy: 0.570149253731
 Max Accuracy: 0.665671641791
@@ -2372,6 +2407,23 @@ Sun Apr 23 21:59:29 2017: NGrams Log Reg
 Min Accuracy: 0.594029850746
 Max Accuracy: 0.653731343284
 Ave Accuracy: 0.628092823293
+Mon Apr 24 00:30:43 2017: Bias vs Neutral (using RBF)
+Min Accuracy: 0.138461538462
+Max Accuracy: 0.86189258312
+Ave Accuracy: 0.211089396734
+Mon Apr 24 00:32:12 2017: Bias vs Neutral (using RBF)
+Min Accuracy: 0.138461538462
+Max Accuracy: 0.86189258312
+Ave Accuracy: 0.211089396734
+Mon Apr 24 00:38:49 2017: Bias vs Neutral (using RBF)
+Min Accuracy: 0.138461538462
+Max Accuracy: 0.86189258312
+Ave Accuracy: 0.211089396734
+Mon Apr 24 01:49:41 2017: SVM Remove Stop Words
+Min Accuracy: 0.574404761905
+Max Accuracy: 0.680597014925
+Ave Accuracy: 0.634063887325
+Ave Accuracy: 0.512983289888
 Mon Apr 24 07:38:51 2017: Log Reg Mistake Analysis
 Min Accuracy: 0.602985074627
 Max Accuracy: 0.69552238806

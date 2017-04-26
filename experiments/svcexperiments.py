@@ -5,6 +5,9 @@ from sklearn import metrics
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 def svmModel(X_train, y_train, X_test, y_test):
 	# Get words and their frequencies
@@ -51,9 +54,37 @@ def removeStopWords(X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2):
 	X_test1 = cv.transform(X_test_k_2)
 	clf = SVC(kernel="linear", class_weight='balanced')
 	clf.fit(X_train1, y_train_k_2)
+	# plot_coefficients(clf, cv.get_feature_names())
 	y_pred = clf.predict(X_test1)
 	# print "cv", score(X_train1, y_train_k_2, X_test1, y_test_k_2)
 	return y_pred
+
+def simpleSVM(X_train, y_train, X_test, y_test):
+	cv = TfidfVectorizer(ngram_range=(1,4),
+						stop_words="english", 
+						max_features=5000)
+	cv.fit(X_train)
+	train = cv.transform(X_train)
+	test = cv.transform(X_test)
+	clf = SVC(kernel="linear", class_weight='balanced')
+	clf.fit(train, y_train)
+	y_pred = clf.predict(test)
+	plot_coefficients(clf, cv.get_feature_names())
+	return y_pred
+
+def plot_coefficients(classifier, feature_names, top_features=20):
+	coef = classifier.coef_.toarray()
+	coef = np.ravel(np.asarray(coef))
+	top_positive_coefficients = np.argsort(coef)[-top_features:]
+	top_negative_coefficients = np.argsort(coef)[:top_features]
+	top_coefficients = np.hstack([top_negative_coefficients, top_positive_coefficients])
+	# create plot
+	colors = ['red' if c < 0 else 'blue' for c in coef[top_coefficients]]
+	plt.bar(np.arange(2 * top_features), coef[top_coefficients], color=colors)
+	feature_names = np.array(feature_names)
+	plt.xticks(np.arange(1, 1 + 2 * top_features), feature_names[top_coefficients], rotation=60, ha='right')
+	plt.figure(figsize=(15, 5))
+	plt.show()
 
 # using nltk stop words and stem words
 def stemWords(X_train_k_2, y_train_k_2, X_test_k_2, y_test_k_2):
